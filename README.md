@@ -11,6 +11,7 @@ This is a pose detection program based on C++ using OpenCV library.
 1. Download OpenCV library
 2. Add OpenCV library path to windows enviroment variable
 3. Link the OpenCV library in Visual Studio settings in the file
+4.add caffe model to coco path
 ```
 
 ### Link to download OpenCV library
@@ -23,6 +24,9 @@ https://heisanbug.tistory.com/21<br/>
 
 Setup might be really hard for first-timers.<br/>
 But I'm pretty sure this would be good experience in future:)<br/>
+
+## Download caffe model and add to file
+Download model file from [This link](https://github.com/foss-for-synopsys-dwc-arc-processors/synopsys-caffe-models/blob/master/caffe_models/openpose/caffe_model/pose_iter_440000.caffemodel) and add to MultiPoseCV\opencvcameras\pose\coco
 
 # If you completed the whole process above...
 Run the program and Enjoy!!
